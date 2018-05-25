@@ -1,3 +1,8 @@
 .addBorderRadius {
     border-radius: 20px;
+    transition: 1s;
+}
+.addBorderRadius:hover{
+    transition: 1s;
+    transform: scale(1.1);
 }
