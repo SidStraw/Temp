@@ -1,11 +1,11 @@
-$(document).ready(function () {
-    $('img[alt*="載入中"]').hide();//隱藏讀取轉圈
-    $('img[src*="_card_"]').addClass("addBorderRadius");//古法圖片動態
+jQuery(document).ready(function () {//不可以用＄
+    jQuery('img[alt*="載入中"]').hide();//隱藏讀取轉圈
+    jQuery('img[src*="_card_"]').addClass("addBorderRadius");//古法圖片動態
 
 
-    $('a[href*=#]:not([href=#])').click(function () {
-        var target = $(this.hash);
-        $('html,body').animate({
+    jQuery('a[href*=#]:not([href=#])').click(function () {
+        var target = jQuery(this.hash);
+        jQuery('html,body').animate({
             scrollTop: target.offset().top
         }, 1000);
         return false;
