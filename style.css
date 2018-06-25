@@ -6,3 +6,13 @@
     transition: 1s;
     transform: scale(1.1);
 }
+
+@media screen and (max-width: 499px){
+    #rot #rot_ctr1_bod_ctr1_bod #__res_main_nav_button:checked ~ ul {
+        background-color: rgb(102, 57, 64);
+    }}
+    
+    @media screen and (max-width: 499px){
+    #rot #rot_ctr1_bod_ctr1_bod #__res_main_nav_label {
+        background-image: url(https://w.tw.mawebcenters.com/static/website/246/246056/files/img/nav_thumbnail.png);
+    }}
