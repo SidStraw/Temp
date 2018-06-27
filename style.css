@@ -13,6 +13,11 @@
     color: rgb(255, 255, 255) !important;
 }
 
+/* 選單底色 */
+#rot #rot_ctr1_bod_ctr1.ivfx_pin {
+    background-color: rgb(75, 13, 40);
+}
+
 
 /* 手機版選單樣式 */
 @media screen and (max-width: 499px){
