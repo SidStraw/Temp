@@ -35,3 +35,13 @@
         display: block;
     }
 }
+/* 隱藏套裝產品數量欄 */
+#rot #iv_ecom_wrp .product-options dd .qty-holder {
+    display: block;
+    padding: 10px 0 0 0;
+}
+
+/* 產品頁面h3小標題頂部留白 */
+#rot #iv_ecom_wrp .collateral-tabs dd h3 {
+    margin-top: 50px;
+}
