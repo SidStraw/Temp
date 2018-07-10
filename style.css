@@ -2,24 +2,29 @@
     border-radius: 20px;
     transition: 1s;
 }
-.addBorderRadius:hover{
+
+.addBorderRadius:hover {
     transition: 1s;
     transform: scale(1.1);
 }
 
 
-
 /* 選單字體白色 */
+
 #rot #rot_ctr1_bod_ctr1_bod ul li a {
     color: rgb(255, 255, 255) !important;
 }
 
+
 /* 選單底色 */
+
 #rot #rot_ctr1_bod_ctr1.ivfx_pin {
     background-color: rgb(75, 13, 40);
 }
 
+
 /* 手機版選單樣式 */
+
 @media screen and (max-width: 499px) {
     #rot #rot_ctr1_bod_ctr1_bod #__res_main_nav_button:checked~ul {
         background-color: rgb(102, 57, 64);
@@ -29,19 +34,35 @@
     }
 }
 
+
 /* 自動開啟敘述與評論 */
+
 @media only screen and (max-width: 770px) {
     #rot #iv_ecom_wrp .product-collateral>dl>dd {
         display: block;
     }
 }
+
+
 /* 隱藏套裝產品數量欄 */
+
 #rot #iv_ecom_wrp .product-options dd .qty-holder {
     display: block;
     padding: 10px 0 0 0;
 }
 
+
 /* 產品頁面h3小標題頂部留白 */
+
 #rot #iv_ecom_wrp .collateral-tabs dd h3 {
     margin-top: 50px;
+}
+
+
+/* 顯示更新購物車 */
+
+@media only screen and (max-width: 599px) {
+    #rot #iv_ecom_wrp .cart-table .cart-footer-actions button.btn-update {
+        display: inline-block;
+    }
 }
