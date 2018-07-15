@@ -22,6 +22,10 @@
     background-color: rgb(75, 13, 40);
 }
 
+.minimal-price {
+    display: none !important;
+}
+
 
 /* 手機版選單樣式 */
 
